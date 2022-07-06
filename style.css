@@ -11,7 +11,7 @@ h1 {
     color: coral;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -49,4 +49,34 @@ section {
 
 .text {
     padding-right: 50px;
+}
+
+.experiences {
+    display: flex;
+}
+
+.third-section {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+#full-stack {
+    border-left: 7px solid royalblue;
+}
+
+#baby-web {
+    border-left: 7px solid tomato;
+}
+
+footer p {
+    text-align: center;
 }
